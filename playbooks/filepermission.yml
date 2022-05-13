@@ -1,0 +1,9 @@
+---
+- name: file permissions
+  hosts: all
+
+  tasks:
+    - name: File permissions
+      file:
+        path: /home/centos/linux2
+        mode: a+w

@@ -1,0 +1,7 @@
+---
+- name: Playbook for shell script
+  hosts: webservers
+
+  tasks:
+     - name: Run shell script
+       shell: "/home/centos/cfile.sh"
